@@ -20,7 +20,11 @@ div.header {
     text-align: center;
     margin: 0;
     font-size: 30px;
+<<<<<<< HEAD
     border-bottom: 2px solid black;
+=======
+    border-bottom: 2px solid #333;
+>>>>>>> feature/section-tiles
     height: 80px;
     width: 100%;
     max-width: none;
@@ -40,7 +44,11 @@ div.header {
 
 .navBar {
     position: absolute;
+<<<<<<< HEAD
     border: black;
+=======
+    border: #333;
+>>>>>>> feature/section-tiles
     height: 380px;
     width: 0;
     position: fixed;
@@ -51,14 +59,22 @@ div.header {
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
+<<<<<<< HEAD
     box-shadow: 5px 5px 10px black;
+=======
+    box-shadow: 5px 5px 10px #333;
+>>>>>>> feature/section-tiles
 }
 
 .navBar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+<<<<<<< HEAD
     color: black;
+=======
+    color: #333;
+>>>>>>> feature/section-tiles
     display: block;
     transition: 0.3s;
 }
@@ -83,7 +99,11 @@ div.header {
     font-size: 20px;
     cursor: pointer;
     background-color: silver;
+<<<<<<< HEAD
     color: black;
+=======
+    color: #333;
+>>>>>>> feature/section-tiles
     padding: 10px 15px;
     border: none;
 }
@@ -104,7 +124,11 @@ footer {
 section {
     background-color: teal;
     color: silver;
+<<<<<<< HEAD
     border: solid, black;
+=======
+    border: solid, #333;
+>>>>>>> feature/section-tiles
     border-radius: 10px;
     margin-left: 8%;
     margin-right: 8%;
@@ -133,4 +157,66 @@ button.random {
 li {
     margin-right: 40px;
     list-style: none;
+<<<<<<< HEAD
+=======
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 260px;
+    height: 250px;
+    perspective: 1000px;
+    float: left;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    box-shadow: 5px 5px 10px black;
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: teal;
+    color: silver;
+    box-shadow: 5px 5px 10px black;
+}
+
+.flip-card-back {
+    background-color: silver;
+    color: #333;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.mains {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+>>>>>>> feature/section-tiles
 }
