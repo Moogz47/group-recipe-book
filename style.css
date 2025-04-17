@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: silver;
+    background-color: rgb(232, 232, 232);
     margin: 0;
     width: 100%;
     min-height: 100%;
@@ -13,9 +13,9 @@ div.header {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: teal;
+    background-color: rgb(35, 158, 158);
     font-weight: bolder;
-    color: silver;
+    color: rgb(232, 232, 232);
     text-decoration: underline;
     text-align: center;
     margin: 0;
@@ -47,7 +47,7 @@ div.header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: silver;
+    background-color: rgb(232, 232, 232);
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -64,7 +64,7 @@ div.header {
 }
 
 .navBar a:hover {
-    color: teal;
+    color: rgb(35, 158, 158);
 }
 
 .navBar .closebtn {
@@ -82,18 +82,18 @@ div.header {
     transform: translateY(-50%);
     font-size: 20px;
     cursor: pointer;
-    background-color: silver;
+    background-color: rgb(232, 232, 232);
     color: #333;
     padding: 10px 15px;
     border: none;
 }
 
 .openbtn:hover {
-    background-color: teal;
+    background-color: rgb(35, 158, 158);
 }
 
 footer {
-    background-color: teal;
+    background-color: rgb(35, 158, 158);
     color: silver;
     margin-top: auto;
     width: 100%;
@@ -102,8 +102,8 @@ footer {
     padding-bottom: 10px;
 }
 section {
-    background-color: teal;
-    color: silver;
+    background-color: rgb(35, 158, 158);
+    color: rgb(232, 232, 232);
     border: solid, #333;
     border-radius: 10px;
     margin-left: 8%;
@@ -127,7 +127,7 @@ p {
 
 button.random {
     border:none;
-    background-color: silver;
+    background-color: rgb(232, 232, 232);
 }
 
 li {
@@ -135,12 +135,12 @@ li {
     list-style: none;
 }
 
-.random-result { 
-    margin-top: 15px; 
-    font-size: 16px; 
-    color: silver; 
-} 
-
+.random-result {
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(232, 232, 232);;
+    }
+    
 .flip-card {
     background-color: transparent;
     width: 260px;
@@ -176,13 +176,13 @@ li {
 }
 
 .flip-card-front {
-    background-color: teal;
-    color: silver;
+    background-color: rgb(35, 158, 158);
+    color: rgb(232, 232, 232);;
     box-shadow: 5px 5px 10px black;
 }
 
 .flip-card-back {
-    background-color: silver;
+    background-color: rgb(232, 232, 232);;
     color: #333;
     transform: rotateY(180deg);
     box-sizing: border-box;
