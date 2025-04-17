@@ -1,11 +1,15 @@
-body {
+html, body {
     display: flex;
     flex-direction: column;
     background-color: rgb(232, 232, 232);
     margin: 0;
     width: 100%;
-    min-height: 100%;
-    padding: auto;
+    height: 100%;
+    margin-top: auto;
+}
+
+main {
+    flex: 1;
 }
 
 div.header {
@@ -41,7 +45,7 @@ div.header {
 .navBar {
     position: absolute;
     border: #333;
-    height: 380px;
+    height: 325px;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -94,13 +98,14 @@ div.header {
 
 footer {
     background-color: rgb(35, 158, 158);
-    color: silver;
+    color: rgb(232, 232, 232);
     margin-top: auto;
     width: 100%;
-    padding-top: 10px;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 25px;
+    border-top: 2px solid black;
 }
+
 section {
     background-color: rgb(35, 158, 158);
     color: rgb(232, 232, 232);
@@ -135,12 +140,6 @@ li {
     list-style: none;
 }
 
-.random-result {
-    margin-top: 15px;
-    font-size: 16px;
-    color: rgb(232, 232, 232);;
-    }
-    
 .flip-card {
     background-color: transparent;
     width: 260px;
@@ -182,7 +181,7 @@ li {
 }
 
 .flip-card-back {
-    background-color: rgb(232, 232, 232);;
+    background-color: white;
     color: #333;
     transform: rotateY(180deg);
     box-sizing: border-box;
@@ -198,4 +197,29 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+#random-result {
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(232, 232, 232);
+    padding: 25px;
+}
+
+.random {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.random:hover {
+    transition: 500ms;
+    background-color: rgb(249, 209, 78);
+    text-decoration: underline;
 }
