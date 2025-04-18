@@ -38,39 +38,44 @@
     <form action="POST">
         <h2>Preferences</h2>
         <fieldset>
-            <legend>
-                <h3>Allergies</h3>
-                <label for="pref1"><input type="radio">Eggs</label>
-                <label for="pref2"><input type="radio">Milk</label>
-                <label for="pref3"><input type="radio">Mustard</label>
-                <label for="pref4"><input type="radio">Peanuts</label>
-                <label for="pref5"><input type="radio">Fish</label>
-                <br>
-                <label for="pref6"><input type="radio">Sesame seeds</label>
-                <label for="pref7"><input type="radio">Soy</label>
-                <label for="pref8"><input type="radio">Wheat</label>
-                <label for="pref9"><input type="radio">Shell Fish</label>
-                <label for="pref10"><input type="radio">Almonds</label>
-            </legend>
-        </fieldset>
-        <fieldset>
-            <legend>
-                <h3>Main</h3>
-                <label for="pref11"><input type="radio">Chicken</label>
-                <label for="pref12"><input type="radio">Fish</label>
-                <label for="pref13"><input type="radio">Beef</label>
-                <label for="pref14"><input type="radio">Veal</label>
-                <label for="pref15"><input type="radio">Salad</label>
-                <br>
-                <label for="pref16"><input type="radio">Low Sodium</label>
-                <label for="pref17"><input type="radio">High Protein</label>
-                <label for="pref18"><input type="radio">Keto</label>
-                <label for="pref19"><input type="radio">Vegetarian</label>
-                <label for="pref20"><input type="radio">Carnivore</label>
-            </legend>
-        </fieldset>
-    </form>
-</section>
+            <legend>Allergies</legend>
+            <div id="allergies">
+              <label><input type="checkbox" name="allergies" value="Eggs"> Eggs</label>
+              <label><input type="checkbox" name="allergies" value="Milk"> Milk</label>
+              <label><input type="checkbox" name="allergies" value="Mustard"> Mustard</label>
+              <label><input type="checkbox" name="allergies" value="Peanuts"> Peanuts</label>
+              <label><input type="checkbox" name="allergies" value="Fish"> Fish</label><br>
+              <label><input type="checkbox" name="allergies" value="Sesame seeds"> Sesame seeds</label>
+              <label><input type="checkbox" name="allergies" value="Soy"> Soy</label>
+              <label><input type="checkbox" name="allergies" value="Wheat"> Wheat</label>
+              <label><input type="checkbox" name="allergies" value="Shell Fish"> Shell Fish</label>
+              <label><input type="checkbox" name="allergies" value="Almonds"> Almonds</label>
+            </div>
+            <button type="button" onclick="selectAll('allergies')">Select All</button>
+            <button type="button" onclick="deselectAll('allergies')">Deselect All</button>
+          </fieldset>
+          <fieldset>
+            <legend>Main</legend>
+            <div id="mainPrefs">
+              <label><input type="checkbox" name="main" value="Chicken"> Chicken</label>
+              <label><input type="checkbox" name="main" value="Fish"> Fish</label>
+              <label><input type="checkbox" name="main" value="Beef"> Beef</label>
+              <label><input type="checkbox" name="main" value="Veal"> Veal</label>
+              <label><input type="checkbox" name="main" value="Salad"> Salad</label><br>
+              <label><input type="checkbox" name="main" value="Low Sodium"> Low Sodium</label>
+              <label><input type="checkbox" name="main" value="High Protein"> High Protein</label>
+              <label><input type="checkbox" name="main" value="Keto"> Keto</label>
+              <label><input type="checkbox" name="main" value="Vegetarian"> Vegetarian</label>
+              <label><input type="checkbox" name="main" value="Carnivore"> Carnivore</label>
+            </div>
+            <button type="button" onclick="selectAll('mainPrefs')">Select All</button>
+            <button type="button" onclick="deselectAll('mainPrefs')">Deselect All</button>
+          </fieldset>
+    
+          <button type="submit">Submit Preferences</button>
+        </form>
+      </section>
+    
 
 <section id="rndmBtn" >
     <h2>Random button</h2>
