@@ -43,4 +43,12 @@ Tasks:
 -	A button to show more info on where it originated from.
 -	And the chef whose recipe it is.
 
+Relevant Links:
+https://github.com/Moogz47/group-recipe-book/issues?q=is%3Aissue%20state%3Aclosed
+https://github.com/Moogz47/group-recipe-book/tree/feature/preference-form
+https://github.com/Moogz47/group-recipe-book/tree/feature/random-button
+https://github.com/Moogz47/group-recipe-book/tree/feature/collapsible-navbar
+https://github.com/Moogz47/group-recipe-book/tree/feature/section-tiles
+https://github.com/users/Moogz47/projects/1/views/1
 
+[![Watch our presentation video](https://img.youtube.com/vi/<qprCX_QPh3E>/0.jpg)](https://www.youtube.com/watch?v=qprCX_QPh3E)
