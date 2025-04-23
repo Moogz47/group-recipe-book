@@ -14,6 +14,9 @@ The nav bar is available by 3 lines at the top left of the page at all times. Wh
 Each section will have tiles that show an image of the dish and the name of the dish. Once flipped it will show the ingredients of the dish, the prep, and directions to make the food.
 At the bottom of the page above the footer is the random button that will select a random dish.
 
+Screenshots:
+(screenshot.png) 
+
 Roles:
 Frontend - Michael Newman
 JavaScript - Musa Jama
