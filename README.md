@@ -15,7 +15,8 @@ Each section will have tiles that show an image of the dish and the name of the 
 At the bottom of the page above the footer is the random button that will select a random dish.
 
 Screenshots:
-(screenshot.png) 
+
+[(screenshot.png) ](https://mail.google.com/mail/u/0?ui=2&ik=eeb219e78f&attid=0.1&permmsgid=msg-a:r4700242915814760510&th=196607c699bac9d6&view=att&disp=inline&realattid=D0B11A45-3545-4E63-B47C-96BE91F49DCA&zw)
 
 Roles:
 Frontend - Michael Newman
